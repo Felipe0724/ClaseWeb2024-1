@@ -61,3 +61,7 @@ section button:nth-child(3){
     color: aquamarine;
     background-color: blue;
 }
+
+section button > p{
+    font-weight: 900;
+}
