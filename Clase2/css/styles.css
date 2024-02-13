@@ -1,0 +1,63 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #80D1F4;
+    font-size: 1.5rem; /*rem Significa que es 1.5 veces los pixeles del font-size del .html*/
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;
+}
+
+.profile{
+    background-color: hsl(203, 57%, 59%);
+    border-radius: 25px;
+    height: 85%;
+    width: 80%;
+    padding: 40px;
+}
+
+.informacion{
+   text-align: center;
+}
+
+.buttons{
+    text-align: center;
+}
+
+/*Ser especifico, de los section la clase profile_avatar*/
+section .profile__avatar{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.profile__name{
+    font-size: 25px;
+}
+
+section button:first-child{
+    background-color: rgb(3, 117, 117);
+    color: white;
+}
+
+section button:last-child{
+    color: black;
+    background-color: antiquewhite;
+}
+
+section button:nth-child(3){
+    color: aquamarine;
+    background-color: blue;
+}
