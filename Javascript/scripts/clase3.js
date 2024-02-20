@@ -27,3 +27,17 @@ if(verificaciones != 4){
 /*Creación de variables sin asignación inicial de valores*/
 
 let playerName;
+
+/*Los const deben tener valor asignado de inicio*/
+const euler = 1.0;
+
+let empty = null;
+
+//Métodos
+Math.exp(3);
+
+let nombreUsuario = "Facundo";
+console.log(nombreUsuario.length)
+console.log(nombreUsuario.includes("a"))
+
+//Métodos o funciones
