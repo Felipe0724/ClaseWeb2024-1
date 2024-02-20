@@ -14,7 +14,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     background-color: #80D1F4;
-    font-size: 1.5rem; /*rem Significa que es 1.5 veces los pixeles del font-size del .html*/
+    font-size: 1.5rem;
     font-family: Arial, sans-serif;
     height: 100vh;
     width: 100%;
@@ -36,7 +36,6 @@ body{
     text-align: center;
 }
 
-/*Ser especifico, de los section la clase profile_avatar*/
 section .profile__avatar{
     border-radius: 50%;
     width: 200px;

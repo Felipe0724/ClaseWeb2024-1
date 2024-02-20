@@ -41,3 +41,23 @@ console.log(nombreUsuario.length)
 console.log(nombreUsuario.includes("a"))
 
 //Métodos o funciones
+
+const sumaValores = (numberOne, numberTwo) =>{
+    return numberOne+numberTwo;
+}
+
+const imprimirNombre = () =>{
+    console.log("Felipe");
+}
+
+const Saluda = nombreAImprimir  => {
+    return "Hello "+ nombreAImprimir;
+}
+
+console.log(Saluda("Felipe"));
+
+/* Crear 3 arrow function
+
+1° Recibe cero parámetros.
+2° Recibe 1 parámetro.
+3° Más de dos parámetros.*/
