@@ -1,3 +1,5 @@
+import { crearDiv } from "./div.js";
+
 const contenido = `
 <nav> 
     <ul>
