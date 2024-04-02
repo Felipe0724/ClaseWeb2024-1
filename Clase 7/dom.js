@@ -14,4 +14,13 @@ const contenido = `
 
 
 //DOM
-
+//createElement()
+const menuPrincipal = document.createElement('div');
+//Asigna la clase del div
+menuPrincipal.classList.add("Principal");
+//colocar un parrafo
+let p = document.createElement('p');
+p.innerHTML = "Esto es un parrafo tripe hpta";
+menuPrincipal.appendChild(p);
+//colocar en el HTML
+document.body.appendChild(menuPrincipal);
