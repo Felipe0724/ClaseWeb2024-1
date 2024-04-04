@@ -1,4 +1,5 @@
 import { crearDiv } from "./div.js";
+import { crearTarjeta } from "./tarjeta.js";
 
 const contenido = `
 <nav> 
@@ -17,12 +18,17 @@ const contenido = `
 
 //DOM
 //createElement()
-const menuPrincipal = document.createElement('div');
-//Asigna la clase del div
-menuPrincipal.classList.add("Principal");
-//colocar un parrafo
-let p = document.createElement('p');
-p.innerHTML = "Esto es un parrafo tripe hpta";
-menuPrincipal.appendChild(p);
+
 //colocar en el HTML
-document.body.appendChild(menuPrincipal);
+document.body.appendChild(crearDiv("Hola Mundo"));
+document.body.appendChild(crearTarjeta("Hola mundo cruel", "jdfhkajf"));
+const division = document.createElement('p');
+division.innerHTML = "Hello";
+division.id = "hola";
+document.body.appendChild(division);
+
+//Manipulas el CSS
+let parrafo = document.getElementById("hola");
+parrafo.style.color = "blue";
+
+//TAREA

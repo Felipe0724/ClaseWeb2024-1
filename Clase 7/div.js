@@ -5,8 +5,9 @@ const menuPrincipal = document.createElement('div');
 menuPrincipal.classList.add("Principal");
 //colocar un parrafo
 let p = document.createElement('p');
-p.innerHTML = "Esto es un parrafo tripe hpta";
+p.innerHTML = texto;
 menuPrincipal.appendChild(p);
+document.body.appendChild(menuPrincipal);
 
 return menuPrincipal;
 };
