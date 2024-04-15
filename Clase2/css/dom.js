@@ -1,6 +1,10 @@
-const descripcion = document.createElement('p');
+export const crearDesc = (texto) => {
+    const descripcion = document.createElement('p');
 descripcion.textContent = 'Desarrolladora web, programadora y diseñadora de logos';
 descripcion.classList.add('informacion');
 document.body.appendChild(descripcion);
+
+}
+
 
 
