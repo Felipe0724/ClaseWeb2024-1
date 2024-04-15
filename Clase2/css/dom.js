@@ -1,4 +1,6 @@
 import { crearDiv } from "./div.js";
+import { crearBoton } from "./boton.js";
+import { crearTarjeta } from "./tarjeta.js";
 
 // Función para crear y agregar un botón al cuerpo del documento
 const crearBoton = (texto) => {
@@ -35,3 +37,20 @@ const contenido = `
 
 // Crear y agregar el contenido al cuerpo del documento
 document.body.appendChild(crearDiv(contenido));
+
+// Crear y agregar la sección de información y los botones al cuerpo del documento
+document.body.appendChild(crearDiv(informacion + botones));
+
+// Crear un párrafo, asignarle un ID y estilo, luego agregarlo al cuerpo del documento
+const division = document.createElement('p');
+division.innerHTML = "Hello";
+division.id = "hola";
+document.body.appendChild(division);
+
+// Crear y agregar una tarjeta al cuerpo del documento
+document.body.appendChild(crearTarjeta("Hello world cruel", "jdfhkajf"));
+
+// Manipular el estilo del párrafo
+let parrafo = document.getElementById("hola");
+parrafo.style.color = "blue";
+
