@@ -8,7 +8,13 @@ const crearBoton = (texto) => {
     return boton;
 };
 
-// Crear el contenido de la página
+// Información de la página
+const nombre = "Jessica Randall";
+const ciudad = "London, United Kingdom";
+const descripcion = "Front-end developer and avid reader.";
+
+
+//contenido de la página
 const contenido = `
 <main class="profile">
     <section class="informacion">
