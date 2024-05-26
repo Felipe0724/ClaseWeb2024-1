@@ -1,0 +1,86 @@
+/* Estilos generales */
+
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: 'Roboto', sans-serif; /* Cambiar la fuente a Roboto */
+    margin: 0; /* Eliminar márgenes */
+    padding: 0; /* Eliminar relleno */
+    box-sizing: border-box; /* Configurar el modelo de caja para incluir el borde y el relleno en el tamaño total */
+    background-color: #d6d578; /* Cambiar el color de fondo a un gris claro */
+    display: flex; /* Utilizar flexbox para el diseño */
+    justify-content: center; /* Centrar horizontalmente el contenido */
+    align-items: center; /* Centrar verticalmente el contenido */
+    min-height: 100vh; /* Establecer una altura mínima igual a la altura de la ventana */
+    color: #ccc; /* Cambiar el color del texto a gris claro */
+}
+
+/* Estilos para el contenedor principal */
+main.profile {
+    display: flex; /* Utilizar flexbox para el diseño */
+    flex-direction: column; /* Apilar elementos en columnas */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    background-color: #b1bf63; /* Color de fondo más oscuro */
+    border-radius: 25px; /* Agregar bordes redondeados */
+    width: 80%; /* Ancho del contenedor */
+    padding: 40px; /* Espaciado interno */
+    text-align: center; /* Alinear el texto al centro */
+}
+
+/* Estilos para la primera sección */
+main.profile section:first-child {
+    text-align: center; /* Alinear el texto al centro */
+    background-color: #9dad42; /* Color de fondo blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Agregar bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+}
+
+/* Estilos para la foto de perfil */
+.profile__avatar {
+    border-radius: 50%; /* Agregar bordes redondeados */
+    width: 150px; /* Ancho de la foto */
+    height: 150px; /* Altura de la foto */
+    object-fit: cover; /* Escalar la imagen para cubrir */
+    margin-bottom: 20px; /* Espaciado inferior */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo de la foto más claro */
+}
+
+/* Estilos para el nombre del perfil */
+.profile__name {
+    margin: 0; /* Eliminar márgenes */
+    color: #ffffff; /* Cambiar el color del nombre a blanco para que se vea mejor */
+    font-size: 2em; /* Tamaño del texto */
+}
+
+/* Estilos para la ciudad y la descripción */
+.profile__city,
+.profile__description {
+    margin: 10px 0; /* Espaciado superior e inferior */
+    color:  #f7f5f5; /* Cambiar el color del texto a blanco también */
+}
+
+/* Estilos para la segunda sección */
+main.profile section:last-child {
+    display: flex; /* Utilizar flexbox para el diseño */
+    flex-direction: column; /* Apilar elementos en columnas */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    gap: 15px; /* Espaciado entre elementos */
+}
+
+/* Estilos para los botones */
+.profile__btn {
+    padding: 10px; /* Espaciado interno */
+    background-color: #258a60; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Eliminar borde */
+    border-radius: 5px; /* Agregar bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    width: 150px; /* Ancho del botón */
+}
+
+/* Estilos al pasar el cursor sobre los botones */
+.profile__btn:hover {
+    background-color: #0a3740; /* Cambiar el color de fondo al pasar el cursor */
+}
