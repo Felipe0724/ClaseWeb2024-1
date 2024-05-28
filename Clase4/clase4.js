@@ -94,8 +94,8 @@ console.log(numerosDuplicados);
 
 //filtra las personas que tengan una edad por encima de 18 años 
 const personas = [
-    { nombre: 'Juan', edad: 25 },
-    { nombre: 'María', edad: 17 },
+    { nombre: 'Felipe', edad: 25 },
+    { nombre: 'Juan', edad: 17 },
     { nombre: 'Pedro', edad: 30 },
     { nombre: 'Ana', edad: 20 }
   ];
